@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/screens/home.dart';
 import 'package:flutter_app/services/countriesprovider.dart';
 import 'package:provider/provider.dart';
-
-import 'file:///C:/Users/Pandong/AndroidStudioProjects/flutter_app/lib/screens/home.dart';
 
 void main() {
   runApp(MyApp());
