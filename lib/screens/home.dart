@@ -108,17 +108,4 @@ class HomePage extends StatelessWidget {
           })
         ])));
   }
-
-  Widget setupAlertDialogContainer() {
-    return Container(
-      height: 100,
-      width: 100,
-      child: ListView.builder(
-          itemCount: 5,
-          itemBuilder: (context, index) {
-            var data = Provider.of<CountriesProvider>(context, listen: false);
-            return ListTile(title: Text(data.data[index].capital));
-          }),
-    );
-  }
 }
