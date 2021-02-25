@@ -1,6 +1,6 @@
 
-#CountryApp
-A Flutter mobile app where it display a list of countries and its flags
+# CountryApp
+A Flutter mobile app where it display a list of countries and its flags.
 
 
 
